@@ -1,5 +1,3 @@
-# nodejs.groovy
-jenkins-course/job-dsl/nodejs.groovy
 job('NodeJS example') {
     scm {
         git('https://github.com/wardviaene/docker-demo.git') {  node -> // is hudson.plugins.git.GitSCM
